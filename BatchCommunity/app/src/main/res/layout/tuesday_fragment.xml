@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#2f333f">
+
+
+
+
+    <LinearLayout
+        android:background="#ad1457"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp">
+        <com.vipul.hp_hp.timelineview.TimelineView
+            app:marker="@drawable/manwhite"
+            android:paddingStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:marker_size="30dp"
+            app:line_size="1dp"
+            app:line="#ffff"/>
+        <TextView
+            android:id="@+id/tucse421"
+
+
+            android:textColor="@color/wh"
+            android:text="CSE-421"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="OnClick" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@color/wh"
+                android:text="9.00am"
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/wh"
+                android:text="10.25am"
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@color/wh"
+                android:text="BM"
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/wh"
+                android:text="Room-101"
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="#aa00ff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp">
+        <com.vipul.hp_hp.timelineview.TimelineView
+            app:marker="@drawable/manwhite"
+            android:paddingStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:marker_size="30dp"
+            app:line_size="1dp"
+            app:line="#ffff"/>
+        <TextView
+            android:id="@+id/tucse425"
+            android:textColor="#ffff"
+            android:text="CSE-425"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#ffff"
+                android:text="10.30am"
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="@color/wh"
+                android:text="11.55am"
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="SN"
+                android:textColor="@color/wh"
+                android:textSize="20dp" />
+            <TextView
+                android:textColor="@color/wh"
+                android:text="Room-101"
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

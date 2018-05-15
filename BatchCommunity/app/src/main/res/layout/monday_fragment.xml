@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    android:background="#30343F">
+
+
+
+
+    <LinearLayout
+
+        android:background="#ff3d00"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp">
+        <com.vipul.hp_hp.timelineview.TimelineView
+            app:marker="@drawable/manwhite"
+            android:paddingStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:marker_size="30dp"
+            app:line_size="1dp"
+            app:line="#ffff"/>
+        <TextView
+            android:id="@+id/mocse422"
+
+             android:textStyle="bold"
+            android:textColor="#ffff"
+            android:text="CSE-422"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#ffff"
+                android:text="2.00pm"
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#ffff"
+                android:text="4.00pm"
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#ffff"
+                android:text="SCB+BM"
+                android:textSize="20dp"
+                android:paddingLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="Room-Abacus"
+                android:textColor="#ffff"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#7b1fa2"
+
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp">
+
+        <com.vipul.hp_hp.timelineview.TimelineView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingStart="30dp"
+            app:line="#ffff"
+            app:line_size="1dp"
+            app:marker="@drawable/manwhite"
+            app:marker_size="30dp" />
+
+        <TextView
+            android:id="@+id/mocse423"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CSE-423"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="4.30pm"
+                android:textColor="#ffff"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="5.55pm"
+                android:textColor="#ffff"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="Faisal Imran"
+                android:textColor="#ffff"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="Room-501"
+                android:textColor="#ffff"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
